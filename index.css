@@ -47,6 +47,7 @@
     color: #ffffff;
 }
 .login-btn {
+    width: 100px;
     padding: 10px 20px;
     background-color: #e07b00;
     color: white; 
@@ -57,23 +58,11 @@
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.3s ease; 
 }
-
 .login-btn:hover {
     background-color: #c96b00; 
     transform: translateY(-2px); 
 }
 
-
-
-
-.search {
-    padding: 15px;
-    margin: 20px 0;
-    border: 1px solid #ced4da;
-    border-radius: 5px;
-    width: 50%;
-    align-self: center;
-}
 .res-container {
     display: flex;
     flex-wrap: wrap;
@@ -227,5 +216,39 @@
 
 .filter-btn:focus {
     outline: none;
+    box-shadow: 0 0 0 3px rgba(239, 153, 5, 0.943);
+}
+.search-box {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none; /* Remove default outline */
+}
+
+.search-box:focus {
+    border-color: #ee730e; /* Change border color on focus */
+}
+
+.search-btn {
+    padding: 10px 20px;
+    margin: 20px;
+    background-color: #ee730e;
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    font-size: 14px; 
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    outline: none; /* Remove default outline */
+}
+
+.search-btn:active {
+    background-color: #ef9445;
+    transform: translateY(0); 
+}
+
+.search-btn:focus {
     box-shadow: 0 0 0 3px rgba(239, 153, 5, 0.943);
 }
