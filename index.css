@@ -32,13 +32,17 @@
     padding: 0;
     margin: 0;
     list-style-type: none;
+    
 }
 
-.nav-items ul li {
+.nav-items ul li  {
     margin: 0 15px;
     padding: 10px 15px;
     cursor: pointer;
+    
     transition: background-color 0.3s ease, color 0.3s ease;
+    
+    
 }
 
 .nav-items ul li:hover {
